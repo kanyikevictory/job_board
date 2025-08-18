@@ -1,0 +1,166 @@
+/* Reset and base */
+body {
+    background-color: #f3f4f6; /* gray-100 */
+    color: #1f2937; /* gray-800 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container - max width and horizontal padding */
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;  /* 16px */
+    padding-right: 1rem;
+}
+
+/* Flex utility: justify-between, align-center */
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1d4ed8; /* blue-700 */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding-top: 1rem;  /* 16px */
+    padding-bottom: 1rem;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Navigation links container */
+.nav-links > a {
+    font-size: 0.875rem; /* text-sm */
+    padding: 0.25rem 0.75rem; /* py-1 px-3 */
+    border-radius: 0.375rem; /* rounded */
+    text-decoration: none;
+    margin-left: 0.75rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Primary button style (Dashboard) */
+.btn-primary {
+    background-color: white;
+    color: #1d4ed8; /* blue-700 */
+}
+
+.btn-primary:hover {
+    background-color: #f3f4f6; /* gray-100 */
+}
+
+/* Outline button style (Logout) */
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: #1d4ed8; /* blue-700 */
+}
+
+/* Main content spacing */
+.main-content {
+    padding-top: 2.5rem;  /* 40px */
+    padding-bottom: 2.5rem;
+}
+
+/* Page title */
+.page-title {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem; /* 32px */
+}
+
+/* Card container */
+.card {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 0.75rem; /* rounded-lg */
+    margin-bottom: 2rem; /* 32px */
+    overflow: hidden;
+}
+
+/* Card header */
+.card-header {
+    background-color: #1f2937; /* gray-800 */
+    color: white;
+    padding: 0.75rem 1.5rem; /* px-6 py-3 */
+}
+
+.card-header h3 {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Card body */
+.card-body {
+    padding: 1.5rem; /* p-6 */
+}
+
+/* Table responsive wrapper */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Table */
+.applicants-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem; /* text-sm */
+    text-align: left;
+    border: 1px solid #d1d5db; /* gray-300 */
+}
+
+/* Table head */
+.applicants-table thead {
+    background-color: #e5e7eb; /* gray-200 */
+}
+
+/* Table header cells */
+.applicants-table th,
+.applicants-table td {
+    border: 1px solid #d1d5db;
+    padding: 0.75rem; /* p-3 */
+}
+
+/* Table row hover */
+.applicants-table tbody tr:hover {
+    background-color: #f9fafb; /* gray-50 */
+}
+
+/* CV link */
+.cv-link {
+    color: #2563eb; /* blue-600 */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.cv-link:hover {
+    text-decoration: underline;
+}
+
+/* No CV text */
+.no-cv {
+    color: #6b7280; /* gray-500 */
+}
+
+/* No applicants message */
+.no-applicants {
+    color: #6b7280; /* gray-500 */
+    font-style: italic;
+}
